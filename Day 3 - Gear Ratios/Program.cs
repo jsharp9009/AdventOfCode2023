@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         var input = File.ReadAllLines("input.txt");
-        //SolvePart1(input);
+        SolvePart1(input);
         SolvePart2(input);
     }
 
