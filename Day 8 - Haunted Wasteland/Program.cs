@@ -12,7 +12,7 @@ class Program
     {
         var input = File.ReadAllLines("input.txt");
         var (enumerator, rules) = ParseInput(input);
-        //SolvePart1(enumerator, rules);
+        SolvePart1(enumerator, rules);
         SolvePart2(enumerator, rules);
     }
 
